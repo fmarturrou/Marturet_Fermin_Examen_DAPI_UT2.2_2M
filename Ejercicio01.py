@@ -2,7 +2,7 @@ def OrdenarLista(numeros):
 
     numeros_ordenados = sorted(numeros, reverse=True)
     
-    with open('listaordenada.txt', 'w') as archivo:
+    with open('ListaOrdenada.txt', 'w') as archivo:
         for numero in numeros_ordenados:
             archivo.write(f"{numero}\n")
 
